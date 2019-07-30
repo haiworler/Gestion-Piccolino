@@ -7,7 +7,6 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "maatwebsite/excel": "~2.1.0",
         "laravelcollective/html": "5.2.*"
     },
     "require-dev": {
@@ -22,7 +21,7 @@
             "database"
         ],
         "psr-4": {
-            "pruebatecnicaoet\\": "app/"
+            "Piccolino\\": "app/"
         }
     },
     "autoload-dev": {
