@@ -147,6 +147,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -155,7 +156,6 @@ return [
         Piccolino\Providers\AuthServiceProvider::class,
         Piccolino\Providers\EventServiceProvider::class,
         Piccolino\Providers\RouteServiceProvider::class,
-        Collective\Html\HtmlServiceProvider::class,
 
     ],
 
